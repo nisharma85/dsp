@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I chose to use vim. I chose this editor since I was able to find some pretty great tutorials for it online. 
 
 ---
 
@@ -61,6 +61,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I decided to go with PyCharm. I am a strong believer in researching and listenting to people's opninions and reviews. PyCharm seems to be one of the most popular editors oyt ehre for python which if why I chose to use it. One of the features that really appealed to me was the debugger. I also like the interface a lot. F9 lets you resume program; shift + enter start new line; Ctrl + Shift + F Find in path. You can customize the editor usinng the settings button on the main toolbar to change your project structure, set up version control, and tweak your working environment.
+
 
 ---
