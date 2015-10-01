@@ -63,5 +63,6 @@ What graphical editor will you use? How did you make your decision? What are som
 
 I decided to go with PyCharm. I am a strong believer in researching and listenting to people's opninions and reviews. PyCharm seems to be one of the most popular editors oyt ehre for python which if why I chose to use it. One of the features that really appealed to me was the debugger. I also like the interface a lot. F9 lets you resume program; shift + enter start new line; Ctrl + Shift + F Find in path. You can customize the editor usinng the settings button on the main toolbar to change your project structure, set up version control, and tweak your working environment.
 
-
+UPDATE: 10/1/2015
+I started playing around with spyder a few weeks ago and it was love at first sight! I love love love the interface. I love that it has a ipython component built in along with the editor. I have a lot of experience working with R and STATA and thought the interfact is very smiliar to both of these. I can safely say that I am a convert and will exclusively be using Spyder from now on. 
 ---
