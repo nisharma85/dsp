@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists and tuples are similar becayse they are used to store one or more objects/value in a specific order. One big difference between the two is that tuples are immutable while lists are mutable. 
 
 ---
 
