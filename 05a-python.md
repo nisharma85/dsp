@@ -58,7 +58,12 @@ print filter(lambda x: x=="Python", languages)
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+List comprehensions are a powerful way to generate lists using the for/in and if keywords. 
+Example of list comprehensions: 
+evens_to_50 = [i for i in range(51) if i % 2 == 0]
+print evens_to_50
+
+
 
 ---
 
@@ -73,7 +78,13 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+from datetime import datetime
+ y = datetime.strptime(date_start, '%m-%d-%Y')
+ z = datetime.strptime(date_stop, '%m-%d-%Y')
+ delta= z-y
+ print delta
+ 
+delta= 937
 
 b.  
 ```
@@ -81,7 +92,13 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+from datetime import datetime
+ y = datetime.strptime(date_start, '%m%d%Y')
+ z = datetime.strptime(date_stop, '%m%d%Y')
+ delta= z-y
+ print delta
+ 
+ delta = 513
 
 c.  
 ```
@@ -89,7 +106,13 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  
+from datetime import datetime
+ y = datetime.strptime(date_start, '%d-%b-%Y')
+ z = datetime.strptime(date_stop, '%d-%b-%Y')
+ delta= z-y
+ print delta
+ 
+ delta= 7850 days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
