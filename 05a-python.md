@@ -20,7 +20,7 @@ Lists and tuples are similar becayse they are used to store one or more objects/
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists and sets both are used to store expressions. List is an ordered sequence of elements whereas Set is a distinct list of elements which is unordered. List comprehension, indexing, and slicing makes it easier to find elements in lists compared to sets. 
 
 ---
 
