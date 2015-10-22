@@ -31,7 +31,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 The lambda operator or lambda function is a way to create small anonymous functions, i.e. functions without a name. These functions are throw-away functions, i.e. they are just needed where they have been created.
 
 
-
+```
 class Student:
         def __init__(self, name, grade, age):
                 self.name = name
@@ -51,7 +51,7 @@ sorted(student_objects, key=lambda student: student.age)
 
 languages = ["HTML", "JavaScript", "Python", "Ruby"]
 print filter(lambda x: x=="Python", languages)
-
+```
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
@@ -60,9 +60,10 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 List comprehensions are a powerful way to generate lists using the for/in and if keywords. 
 Example of list comprehensions: 
+```
 evens_to_50 = [i for i in range(51) if i % 2 == 0]
 print evens_to_50
-
+```
 
 
 ---
@@ -77,13 +78,13 @@ a.
 date_start = '01-02-2013'    
 date_stop = '07-28-2015'
 ```
-
+```
 from datetime import datetime
  y = datetime.strptime(date_start, '%m-%d-%Y')
  z = datetime.strptime(date_stop, '%m-%d-%Y')
  delta= z-y
  print delta
- 
+``` 
 delta= 937
 
 b.  
@@ -91,13 +92,13 @@ b.
 date_start = '12312013'  
 date_stop = '05282015'  
 ```
-
+```
 from datetime import datetime
  y = datetime.strptime(date_start, '%m%d%Y')
  z = datetime.strptime(date_stop, '%m%d%Y')
  delta= z-y
  print delta
- 
+``` 
  delta = 513
 
 c.  
@@ -105,13 +106,13 @@ c.
 date_start = '15-Jan-1994'      
 date_stop = '14-Jul-2015'  
 ```
-
+```
 from datetime import datetime
  y = datetime.strptime(date_start, '%d-%b-%Y')
  z = datetime.strptime(date_stop, '%d-%b-%Y')
  delta= z-y
  print delta
- 
+``` 
  delta= 7850 days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
