@@ -12,7 +12,16 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+pwd: display path of curr working directory
+cd: change directory
+rm: delete
+ls: list directory contents
+mkdiir: make new directory
+cat: output contents of a file
+clear: clear command line window
+mv: move file
+cp: copy
+head: output first ten lines
 
 ---
 
@@ -21,7 +30,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls lists directory contents. 
+
+ls -a lists with hidden files/directories
+ls -l  lists with long listing format.
+ls -lh long listing format with file size in human readable form
+
+
 
 ---
 
@@ -30,7 +45,8 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
+xargs command is designed to construct argument lists and invoke other utility.
+$ echo 1 2 3 4 | xargs
 ---
 
