@@ -126,7 +126,13 @@ Print the first 3 key and value pairs of the dictionary:
 
 >> The first three key and value pairs in first dictionary:
 
-```[('Putt', [' PhD ScD', 'Professor of Biostatistics', 'mputt@mail.med.upenn.edu']), ('Feng', [' Ph.D', 'Assistant Professor of Biostatistics', 'ruifeng@upenn.edu']), ('Bilker', ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu'])] ```
+```
+
+[('Putt', [' PhD ScD', 'Professor of Biostatistics', 'mputt@mail.med.upenn.edu']), 
+        ('Feng', [' Ph.D', 'Assistant Professor of Biostatistics', 'ruifeng@upenn.edu']),
+        ('Bilker', ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu'])]
+
+```
 
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
@@ -142,7 +148,14 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> The first three key and value pairs in second dictionary:
+```
+
+[('Jinbo,Chen', [' Ph.D.', 'Associate Professor of Biostatistics', 'jinboche@upenn.edu']),
+          ('Sarah,Ratcliffe', [' Ph.D.', 'Associate Professor of Biostatistics', 'sratclif@upenn.edu']),
+          ('Susan,Ellenberg', [' Ph.D.', 'Professor of Biostatistics', 'sellenbe@upenn.edu'])]
+
+```
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.  
 
