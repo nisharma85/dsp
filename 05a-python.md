@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-Lists and tuples are similar becayse they are used to store one or more objects/value in a specific order. One big difference between the two is that tuples are immutable while lists are mutable and for this reason, tuples work as keys for dictionaries. 
+>> Lists and tuples are similar becayse they are used to store one or more objects/value in a specific order. One big difference between the two is that tuples are immutable while lists are mutable and for this reason, tuples work as keys for dictionaries. 
 
 ---
 
@@ -20,7 +20,7 @@ Lists and tuples are similar becayse they are used to store one or more objects/
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-Lists and sets both are used to store expressions. List is an ordered sequence of elements whereas Set is a distinct list of elements which is unordered. List comprehension, indexing, and slicing makes it easier to find elements in lists compared to sets. 
+>> Lists and sets both are used to store expressions. List is an ordered sequence of elements whereas Set is a distinct list of elements which is unordered. List comprehension, indexing, and slicing makes it easier to find elements in lists compared to sets. 
 
 ---
 
@@ -28,7 +28,7 @@ Lists and sets both are used to store expressions. List is an ordered sequence o
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-The lambda operator or lambda function is a way to create small anonymous functions, i.e. functions without a name. These functions are throw-away functions, i.e. they are just needed where they have been created.
+>> The lambda operator or lambda function is a way to create small anonymous functions, i.e. functions without a name. These functions are throw-away functions, i.e. they are just needed where they have been created.
 
 
 ```
@@ -58,7 +58,7 @@ print filter(lambda x: x=="Python", languages)
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-List comprehensions are a powerful way to generate lists using the for/in and if keywords. 
+>> List comprehensions are a powerful way to generate lists using the for/in and if keywords. 
 Example of list comprehensions: 
 ```
 evens_to_50 = [i for i in range(51) if i % 2 == 0]
@@ -85,7 +85,7 @@ from datetime import datetime
  delta= z-y
  print delta
 ``` 
-delta= 937
+>> delta= 937
 
 b.  
 ```
@@ -99,7 +99,7 @@ from datetime import datetime
  delta= z-y
  print delta
 ``` 
- delta = 513
+>> delta = 513
 
 c.  
 ```
@@ -113,7 +113,7 @@ from datetime import datetime
  delta= z-y
  print delta
 ``` 
- delta= 7850 days
+>> delta= 7850 days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
