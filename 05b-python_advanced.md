@@ -157,7 +157,11 @@ Print the first 3 key and value pairs of the dictionary:
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.  
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> The first three key and value pairs in second dictionary sorted by last name:
+```
+[('Jinbo,Chen', [' Ph.D.', 'Associate Professor of Biostatistics', 'jinboche@upenn.edu']), ('Sarah,Ratcliffe', [' Ph.D.', 'Associate Professor of Biostatistics', 'sratclif@upenn.edu']), ('Susan,Ellenberg', [' Ph.D.', 'Professor of Biostatistics', 'sellenbe@upenn.edu'])]
+```
+
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
