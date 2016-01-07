@@ -3,7 +3,8 @@
 >> I followed the class size example in the book as an approach to this problem. Used the pmf function in provided by the author and did the same for the biased. 
 
 >> The following is the code used to create the final actual vs observed plot
- ```thinkplot.PrePlot(2)
+ ```
+thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Show()
 ```
