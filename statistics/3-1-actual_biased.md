@@ -4,4 +4,5 @@
 
 >> The following is the final plot with the actual and the observed distribution. 
 
-![Plot(actual and obs)](C:/ods/figures/biased_dist.png)
+![Plot(actual and obs)](C:/ods/figures/biased_dist.png?raq=true)
+Format: ![Alt Text](url)
