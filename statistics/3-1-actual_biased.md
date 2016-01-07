@@ -8,3 +8,5 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Show()
 ```
+
+>> The mean for the biased sample was a 2.40 and the actual was 1.02. 
