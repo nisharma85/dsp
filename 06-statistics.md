@@ -86,7 +86,8 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ###Q8. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The  frequentist approachfocuses on the probability of the data, given the hypothesis. 
+>> Bayesian statistics focuses on P(H|D), the probability of the hypothesis, given the data.
 
 ---
 
